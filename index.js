@@ -12,3 +12,6 @@ function prepend(){
 function removeLast(){
   pets.pop();
 }
+function removeFirst(){
+  pets.shift();
+}
