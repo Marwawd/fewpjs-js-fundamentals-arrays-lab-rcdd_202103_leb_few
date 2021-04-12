@@ -1,11 +1,11 @@
 // Write your solution here!
-pets=["Milo", "Otis", "Garfield"];
+let pets=["Milo", "Otis", "Garfield"];
 function append(){
 pets.push("Odie");}
-append(pets);
 
-//function prepend(pets){
-//  pets.unshift(pets);
-//}
+
+function prepend(){
+ pets.unshift("Odie");
+}
 
 //pets.splice(4, 1, 'May');
