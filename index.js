@@ -1,6 +1,6 @@
 // Write your solution here!
 pets=["Milo", "Otis", "Garfield"];
-function append(pets){
+function append(){
 pets.push("Odie");}
 append(pets);
 
