@@ -9,3 +9,6 @@ function prepend(){
 }
 
 //pets.splice(4, 1, 'May');
+function removeLast(){
+  pets.pop();
+}
