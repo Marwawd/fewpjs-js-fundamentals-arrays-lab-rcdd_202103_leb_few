@@ -1,5 +1,5 @@
 // Write your solution here!
-let pets=["Milo", "Otis", "Garfield"];
+const append=["Milo", "Otis", "Garfield"],prepend=["Milo", "Otis", "Garfield"],removeLast=["Milo", "Otis", "Garfield"],removeFirst=["Milo", "Otis", "Garfield"];
 function append(){
 let pets2=pets.push("Odie");}
 
