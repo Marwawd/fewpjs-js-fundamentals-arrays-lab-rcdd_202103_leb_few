@@ -1,11 +1,11 @@
 // Write your solution here!
 let pets=["Milo", "Otis", "Garfield"];
 function append(){
-pets.push("Odie");}
+let pets2=pets.push("Odie");}
 
 
 function prepend(){
- pets.unshift("Odie");
+ let pets3=pets.unshift("Odie");
 }
 
 //pets.splice(4, 1, 'May');
@@ -15,3 +15,8 @@ function removeLast(){
 function removeFirst(){
   pets.shift();
 }
+
+pets.append();
+pets.prepend();
+pets.removeLast();
+pets.removeFirst();
